@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Home  from './pages/Home'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemCount from './components/ItemCount/ItemCount'
 
@@ -11,12 +11,8 @@ function App() {
   }
 
   return (
-    <>
-      <Navbar></Navbar>
-      <ItemListContainer 
-        { ...itemListContainerProps} //
-      ></ItemListContainer>
-      <ItemCount></ItemCount>
+    <>   
+      <Home /> 
     </>
   )
 }

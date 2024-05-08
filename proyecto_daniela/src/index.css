@@ -8,3 +8,15 @@
     width: 150px;
     height: 100px;
 }
+
+.itemlist {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.itemDetail{
+    display: flex;
+    justify-content: center;
+}
